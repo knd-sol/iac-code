@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "cloudcore007"
+    bucket = "knd-sol-reatcjs-app"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
